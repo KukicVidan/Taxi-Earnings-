@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="rezultati.css">
 </head>
 <body>
-    <br>
-    <br>
-    <br>
-    <a class="nazad" href="input_form.php"><--Nazad</a>
-    <?php
-    // Include the PHP code to display results
-    require_once "display_results.php";
-    ?>
-   
     
+        <br>
+        <br>
+        <br>
+        <a class="nazad" href="input_form.php">🔙Nazad</a>
+        <?php
+        // Include the PHP code to display results
+        require_once "display_results.php";
+        ?>
+   
+   
 </body>
 </html>

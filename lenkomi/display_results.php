@@ -33,7 +33,7 @@ if ($result->num_rows > 0) {
         echo "<ul>";
         // Loop through the drivings for the current month
         foreach ($drivings as $driving) {
-            echo "<li>{$driving['date']}. ({$driving['location_from']} - {$driving['location_to']}) - <span>{$driving['amount']}💸</span> : {$driving['client_name']}</li>";
+            echo "<li>📅{$driving['date']}.    ({$driving['location_from']} 🚕 {$driving['location_to']})   -  <span>{$driving['amount']}💸</span> :📞 {$driving['client_name']}</li>";
             // Add the money_amount to the total
             $total_amount_earned += $driving['amount'];
         }
