@@ -20,7 +20,7 @@
         <input type="text" id="location_to" name="location_to" required><br><br>
 
         <label for="amount">💸Naplata:</label>
-        <input type="text" id="amount" name="amount" required pattern="\d+(\.\d{2})?" placeholder="BAM,00"><br><br>
+        <input type="text" id="amount" name="amount" required pattern="\d+(\.\d{2})?" placeholder="BAM.00"><br><br>
 
         <label for="client_name">📞Zvao:</label>
         <input type="text" id="client_name" name="client_name" required><br><br>
